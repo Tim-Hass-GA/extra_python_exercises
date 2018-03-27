@@ -9,7 +9,6 @@
 
 # Below is sample output:
 
-
 # Guess a number between 1 and 100
 # 50 <-- user input
 # The number is lower than 50.  Guess again
@@ -26,7 +25,6 @@
 # 19
 # You got it in 7 tries
 
-
 # HINT:
 # To get input from a user use the input() method:
 # num_of_cookies = input("How many cookies should I eat?")
@@ -34,5 +32,23 @@
 
 # This will assign the typed input value to your variable as a number
 
-
 # *** your code here ***
+
+################
+################
+################
+################
+
+# import 
+# random number = int(random()*100)
+# guess = int(num)
+
+# nonlocal can be used to tell the function that is is global
+
+# if guss num == num
+# elf guess_num < number
+# else you win
+
+################
+################
+################

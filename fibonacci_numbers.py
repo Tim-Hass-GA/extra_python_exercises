@@ -12,3 +12,14 @@
 
 
 # *** your code here ***
+def fibonacci2(length):
+  listFib = [0,1]
+  for i in range(2, length):
+    listFib.append(listFib[i-1] + listFib[i-2])
+  return listFib
+
+print(fibonacci2(10))
+
+
+# add the previous two numbers
+# 

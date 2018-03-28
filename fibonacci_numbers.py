@@ -19,7 +19,3 @@ def fibonacci2(length):
   return listFib
 
 print(fibonacci2(10))
-
-
-# add the previous two numbers
-# 

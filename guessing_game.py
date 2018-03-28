@@ -47,10 +47,14 @@ found = False
 while(found == False):
   if (guess == num):
     found = True
-    print("yeah",guess,num,count)
+    count += 1
+    print("yeah",guess,"is equal to",num,"found in",count,"attemps")
   else:
     count += 1
-    print("no",guess,num,count)
+    if (guess > num):
+      print("Incorrect",guess,"is greater than the secret number and this is your",count,"attempt")
+    elif (guess < num):
+      print("Incorrect",guess,"is less than then the secret number and this is your",count,"attempt")
     guess = int(input("guess again"))
 
 ################

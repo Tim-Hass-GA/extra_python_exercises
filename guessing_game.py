@@ -35,20 +35,22 @@
 # *** your code here ***
 
 ################
-################
-################
-################
 
-# import 
-# random number = int(random()*100)
-# guess = int(num)
+import random
+random.random()
+num = random.randint(1,10)
+print(num)
+count = 0
+guess = int(input("Guess a number"))
+found = False
 
-# nonlocal can be used to tell the function that is is global
+while(found == False):
+  if (guess == num):
+    found = True
+    print("yeah",guess,num,count)
+  else:
+    count += 1
+    print("no",guess,num,count)
+    guess = int(input("guess again"))
 
-# if guss num == num
-# elf guess_num < number
-# else you win
-
-################
-################
 ################

@@ -7,7 +7,7 @@
 # Input: "Let's do a coding challenge"
 # Output: "s'teL od a gniedoc egnellahc"
 
-
+my_string = "Let's do a coding challenge"
 # *** your code here ***
 ######## reverse
 def reverse_string(string):
@@ -16,7 +16,7 @@ def reverse_string(string):
     new_sentence
   return new_sentence[::-1]
 
-print(reverse_string("Let's do a coding challenge"))
+print(reverse_string(my_string))
 
 # OUTPUT ['challenge', 'coding', 'a', 'do', "Let's"]
 
@@ -26,7 +26,7 @@ def reverse_string2(string):
     new_sentence2 = string[::-1]
   return new_sentence2
 
-print(reverse_string2("Let's do a coding challenge"))
+print(reverse_string2(my_string))
 
 # OUTPUT egnellahc gnidoc a od s'teL
 
@@ -37,10 +37,10 @@ def reverse_string3(string):
   new_sentence3 = " ".join(new_word)
   return new_sentence3
 
-print(reverse_string3("Let's do a coding challenge"))
+print(reverse_string3(my_string))
 
 # OUTPUT s'teL od a gnidoc egnellahc
 
 def reverse_string4(string):
     return " ".join(word[::-1] for word in string.split(" "))
-print(reverse_string4("Let's do a coding challenge"))
+print(reverse_string4(my_string))
